@@ -16,7 +16,7 @@ namespace WinFormsApp_SimpleTextEditor
         public Form1()
         {
             InitializeComponent();
-            openFileDialog1.FileName = ""; // Очищаем название файла.
+            openFileDialog1.FileName = "";
             openFileDialog1.Filter = "Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*";
         }
 
